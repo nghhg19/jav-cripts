@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 25px;
+  color: rgb(46, 46, 46);
+}
+
+.container {
+  width: 100%;
+}
+
+.left {
+  float: left;
+  width: 70%;
+  height: 100%;
+  background-color: #f9f9f9;
+}
+
+.right {
+  float: right;
+  width: 30%;
+  background-color: #ddd;
+}
+
+.clear {
+  clear: both;
+  background-color: #efefef;
+}
